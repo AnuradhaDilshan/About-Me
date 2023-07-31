@@ -1,0 +1,66 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    height: 100px;
+}
+
+.left {
+    width: 100%;
+    height: auto;
+}
+
+.left img {
+    width: 80%;
+    height: auto;
+    padding-left: 7%;
+}
+
+
+.right {
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+}
+
+.right h1 {
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2;
+    color: #5c629d;
+    margin-top: 50px;
+}
+
+.right p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    width: 90%;
+}
+
+.name {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1;
+    position: relative;
+    text-align: center;
+}
+
+.name span {
+    display: block;
+    width: 345px;
+    height: 43px;
+    position: absolute;
+    background: rgb(251, 187, 24);
+}
+
+.sub {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.github {
+    width: 40px;
+}
