@@ -4,7 +4,7 @@ body {
 
 .container {
     display: flex;
-    height: 100px;
+    height: 100%;
 }
 
 .left {
@@ -50,10 +50,11 @@ body {
 
 .name span {
     display: block;
-    width: 345px;
-    height: 43px;
+    width: 350px;
+    height: 45px;
     position: absolute;
     background: rgb(251, 187, 24);
+    border-radius: 10px;
 }
 
 .sub {
@@ -61,6 +62,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.info {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .github {
-    width: 40px;
+    width: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.linkedin {
+    width: 45px;
+    margin: 10px 0px 0px 2px;
 }
